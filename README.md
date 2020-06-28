@@ -3,7 +3,7 @@
 
 <p align="center"><a href="#uttesh"><img src="https://github.com/uttesh/ngu-mx-table/blob/master/images/matrix_table.png" width="100%"/></a><a href="#uttesh"><img src="https://github.com/uttesh/ngu-mx-table/blob/master/images/dropShadow.png" width="100%"/></a></p><br/>
 
-<p align="center"><<img src="https://github.com/uttesh/ngu-mx-table/blob/master/images/matrix_form.png" width="100%"/></a><a href="#uttesh"><img src="https://github.com/uttesh/ngu-mx-table/blob/master/images/dropShadow.png" width="100%"/></a></p><br/>
+<p align="center"><img src="https://github.com/uttesh/ngu-mx-table/blob/master/images/matrix_form.png" width="60%" height="80%"/></a><a href="#uttesh"><img src="https://github.com/uttesh/ngu-mx-table/blob/master/images/dropShadow.png" width="100%"/></a></p><br/>
 
 ## Installation
 install library from npm
