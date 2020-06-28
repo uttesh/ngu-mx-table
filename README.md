@@ -1,6 +1,8 @@
 <h1 align="center">ngu-mx-table</h1>
 <p align="center"><i>ngu-mx-table</i> is a simple table to show the data in the matrix or grid format along with the form components.</p>
 
+<p align="center"><a href="#uttesh"><img src="https://github.com/uttesh/ngu-mx-table/blob/master/images/matrix_table.png" width="100%"/></a><a href="#uttesh"><img src="https://github.com/uttesh/ngu-mx-table/blob/master/images/dropShadow.png" width="100%"/></a></p><br/>
+
 ## Installation
 install library from npm
 ```
@@ -38,10 +40,11 @@ export class AppModule { }
   </ngu-mx-table>
 ```
 
-## components and attributes
+## Components and attributes
 | Compoenet | Attributes |                                                                                   Comments |
 | --------- | :--------: | -----------------------------------------------------------------------------------------: |
 | ngu-mx-th |  headers   | Its the table header component and pass array od string which will the table header labels |
 | ngu-mx-tr |    data    |                                         Its the table row like traditional tr of the table |
 | ngu-mx-td |            |                Its the table data and in the body we can set any html component and render |
+
 
