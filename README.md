@@ -41,10 +41,11 @@ export class AppModule { }
 ```
 
 ## Components and attributes
-| Compoenet | Attributes |                                                                                   Comments |
-| --------- | :--------: | -----------------------------------------------------------------------------------------: |
-| ngu-mx-th |  headers   | Its the table header component and pass array od string which will the table header labels |
-| ngu-mx-tr |    data    |                                         Its the table row like traditional tr of the table |
-| ngu-mx-td |            |                Its the table data and in the body we can set any html component and render |
+| Compoenet    | Attributes |                                                                                   Comments |
+| ------------ | :--------: | -----------------------------------------------------------------------------------------: |
+| ngu-mx-table |            |                                                Its the table contains the child components |
+| ngu-mx-th    |  headers   | Its the table header component and pass array od string which will the table header labels |
+| ngu-mx-tr    |    data    |                                         Its the table row like traditional tr of the table |
+| ngu-mx-td    |            |                Its the table data and in the body we can set any html component and render |
 
 
