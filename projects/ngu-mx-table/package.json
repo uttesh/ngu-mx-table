@@ -1,0 +1,22 @@
+{
+  "name": "ngu-mx-table",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "^8.0.3",
+    "@angular/core": "^8.0.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uttesh/ngu-mx-table.git"
+  },
+  "keywords": [
+    "grid table",
+    "matrix table",
+    "angular simple table"
+  ],
+  "author": "Uttesh Kumar T.H.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/uttesh/ngu-mx-table/issues"
+  }
+}
