@@ -1,53 +1,27 @@
-<h1 align="center">ngu-mx-table</h1>
-<p align="center"><i>ngu-mx-table</i> is a simple table to show the data in the matrix or grid format along with the form components.</p>
+# LibraryWorkspace
 
-<p align="center"><b>Matrix/Grid data table</b><a href="#uttesh"><img src="https://github.com/uttesh/ngu-mx-table/blob/master/images/matrix_table.png" width="100%"/></a><a href="#uttesh"><img src="https://github.com/uttesh/ngu-mx-table/blob/master/images/dropShadow.png" width="100%"/></a></p><br/>
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.1.
 
-<p align="center"><b>Form component table</b><a href="#uttesh"><img src="https://github.com/uttesh/ngu-mx-table/blob/master/images/matrix_form.png" width="100%" height="40%"/></a><a href="#uttesh"><img src="https://github.com/uttesh/ngu-mx-table/blob/master/images/dropShadow.png" width="100%"/></a></p><br/>
+## Development server
 
-## Installation
-install library from npm
-```
-npm i ngu-mx-table
-```
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## How to use
+## Code scaffolding
 
-1. Import the 'NguMatrixTableModule' in the app.module.ts
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-```
-import { NguMatrixTableModule } from 'ngu-mx-table';
+## Build
 
-```
-2. Add to NgModule import section
-```
-@NgModule({
-	declarations: [],
-	imports: [NguMatrixTableModule],
-	providers: [],
-	bootstrap: []
-})
-export class AppModule { }
-```
-3. Use the ngu-mx-table in the html or templat where ever required.
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-```
- <ngu-mx-table>
-    <ngu-mx-th [headers]="headers"></ngu-mx-th>
-    <ngu-mx-tr [data]="dataList" *ngFor="let row of dataList">
-      <ngu-mx-td *ngFor="let data of row.values">
-       // your component goes here
-      </ngu-mx-td>
-    </ngu-mx-tr>
-  </ngu-mx-table>
-```
+## Running unit tests
 
-## Components and attributes
-| Compoenet    | Attributes |                                                                                   Comments |
-| ------------ | :--------: | -----------------------------------------------------------------------------------------: |
-| ngu-mx-table |            |                                                Its the table contains the child components |
-| ngu-mx-th    |  headers   | Its the table header component and pass array od string which will the table header labels |
-| ngu-mx-tr    |    data    |                                         Its the table row like traditional tr of the table |
-| ngu-mx-td    |            |                Its the table data and in the body we can set any html component and render |
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
+## Running end-to-end tests
 
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).

@@ -1,24 +1,51 @@
-# NguMxTable
+<h1 align="center">ngu-mx-table</h1>
+<p align="center"><i>ngu-mx-table</i> is a simple table to show the data in the matrix or grid format along with the form components.</p>
 
-This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.3.
+<p align="center"><a href="#uttesh"><img src="https://github.com/uttesh/ngu-mx-table/blob/master/images/matrix_table.png" width="100%"/></a><a href="#uttesh"><img src="https://github.com/uttesh/ngu-mx-table/blob/master/images/dropShadow.png" width="100%"/></a></p><br/>
 
-## Code scaffolding
+## Installation
+install library from npm
+```
+npm i ngu-mx-table
+```
 
-Run `ng generate component component-name --project ngu-mx-table` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module --project ngu-mx-table`.
-> Note: Don't forget to add `--project ngu-mx-table` or else it will be added to the default project in your `angular.json` file. 
+## How to use
 
-## Build
+1. Import the 'NguMatrixTableModule' in the app.module.ts
 
-Run `ng build ngu-mx-table` to build the project. The build artifacts will be stored in the `dist/` directory.
+```
+import { NguMatrixTableModule } from 'ngu-mx-table';
 
-## Publishing
+```
+2. Add to NgModule import section
+```
+@NgModule({
+	declarations: [],
+	imports: [NguMatrixTableModule],
+	providers: [],
+	bootstrap: []
+})
+export class AppModule { }
+```
+3. Use the ngu-mx-table in the html or templat where ever required.
 
-After building your library with `ng build ngu-mx-table`, go to the dist folder `cd dist/ngu-mx-table` and run `npm publish`.
+```
+ <ngu-mx-table>
+    <ngu-mx-th [headers]="headers"></ngu-mx-th>
+    <ngu-mx-tr [data]="dataList" *ngFor="let row of dataList">
+      <ngu-mx-td *ngFor="let data of row.values">
+       // your component goes here
+      </ngu-mx-td>
+    </ngu-mx-tr>
+  </ngu-mx-table>
+```
 
-## Running unit tests
+## Components and attributes
+| Compoenet    | Attributes |                                                                                   Comments |
+| ------------ | :--------: | -----------------------------------------------------------------------------------------: |
+| ngu-mx-table |            |                                                Its the table contains the child components |
+| ngu-mx-th    |  headers   | Its the table header component and pass array od string which will the table header labels |
+| ngu-mx-tr    |    data    |                                         Its the table row like traditional tr of the table |
+| ngu-mx-td    |            |                Its the table data and in the body we can set any html component and render |
 
-Run `ng test ngu-mx-table` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).

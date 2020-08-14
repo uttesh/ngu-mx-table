@@ -13,7 +13,7 @@ div {
 
 .mx-table {
   display: grid;
-  grid-template-columns: repeat(auto-fill, 10%);
+  grid-template-columns: repeat(auto-fill, 12%);
   grid-template-rows: 100% auto;
   transition: 0.5s;
 }
@@ -39,8 +39,8 @@ div {
   width: 100%;
   text-align: center;
   padding: 0.5em 0.5em;
-  border-right: solid 2px #d9d9d9;
-  border-bottom: dashed 2px #d9d9d9;
+  border-right: solid 1.5px #d9d9d9;
+  border-bottom: dashed 1.5px #d9d9d9;
 }
 
 .mx-row:first-of-type {
@@ -64,12 +64,12 @@ div {
 
 .column .mx-row {
   display: grid;
-  grid-template-columns: repeat(auto-fill, 33.3%);
+  grid-template-columns: repeat(auto-fill, 12%);
   grid-template-rows: 100% 100% 100%;
   width: 100%;
   padding: 0;
   border: 0;
-  border-bottom: solid 2px #d9d9d9;
+  border-bottom: solid 1.5px #d9d9d9;
 }
 
 .column .mx-row:hover {
@@ -80,30 +80,30 @@ div {
 .mx-cell {
   text-align: center;
   padding: 0.5em 0.5em;
-  border-right: solid 2px #d9d9d9;
+  border-right: solid 1.5px #d9d9d9;
 }
 
 @media all and (min-width: 431px) and (max-width: 768px) {
   .mx-table {
     display: grid;
-    grid-template-columns: repeat(auto-fill, 33.33%);
+    grid-template-columns: repeat(auto-fill, 12%);
     grid-template-rows: repeat(auto-fill, 100%);
   }
 
   .mx-table .mx-row {
-    border-bottom: solid 2px #d9d9d9;
+    border-bottom: solid 1.5px #d9d9d9;
   }
 
   .rowspan {
     display: grid;
-    grid-template-columns: repeat(auto-fill, 100%);
+    grid-template-columns: repeat(auto-fill, 12%);
     grid-template-rows: repeat(auto-fill, 100%);
   }
 
   .rowspan .mx-row {
     display: grid;
-    grid-template-columns: repeat(auto-fill, 33.33%);
-    border-bottom: solid 2px #d9d9d9;
+    grid-template-columns: repeat(auto-fill, 12%);
+    border-bottom: solid 1.5px #d9d9d9;
   }
 
   .rowspan p {
@@ -115,7 +115,7 @@ div {
     grid-column-end: 4;
   }
 
-  .rowspan > .first {
+  .rowspan>.first {
     display: block;
   }
 }
@@ -123,7 +123,7 @@ div {
 @media all and (max-width: 430px) {
   .mx-table {
     display: grid;
-    grid-template-columns: repeat(auto-fill, 100%);
+    grid-template-columns: repeat(auto-fill, 12%);
     grid-template-rows: 100% auto;
   }
 
@@ -132,7 +132,7 @@ div {
   }
 
   .mx-table .mx-row:last-of-type {
-    border-bottom: solid 2px #d9d9d9;
+    border-bottom: solid 1.5px #d9d9d9;
   }
 
   .first {
@@ -143,15 +143,15 @@ div {
 
   .rowspan {
     display: grid;
-    grid-template-columns: repeat(auto-fill, 100%);
+    grid-template-columns: repeat(auto-fill, 12%);
     grid-template-rows: 100% auto;
   }
 
   .rowspan .mx-row {
     display: grid;
-    grid-template-columns: repeat(auto-fill, 100%);
+    grid-template-columns: repeat(auto-fill, 12%);
     grid-template-rows: auto;
-    border-bottom: solid 1px #d9d9d9;
+    border-bottom: solid 1.5px #d9d9d9;
   }
 
   .rowspan p {

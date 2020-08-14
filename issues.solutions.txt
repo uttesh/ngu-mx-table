@@ -1,0 +1,11 @@
+Could not find module “@angular-devkit/build-angular” after npm install:
+
+install build-angular with this command:
+
+  `npm i --save-dev @angular-devkit/build-angular`
+then install build-ng-packagr:
+
+  `npm i --save-dev @angular-devkit/build-ng-packagr`
+finally install ng-packagr:
+
+  `npm i --save-dev ng-packagr`

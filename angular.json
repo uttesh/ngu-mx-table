@@ -37,6 +37,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "ngu-mx-table"
+    }
+  },
+  "defaultProject": "ngu-mx-table",
+  "cli": {
+    "analytics": "73e23e22-4a3a-4560-a4cf-656d9c7790af"
+  }
 }
